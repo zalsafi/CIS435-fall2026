@@ -8,6 +8,9 @@
 }
 body {
     background-color: var(--primary-color);
+    secondary-color: var(--secondary-color);
+    accent-color: var(--accent-color);
     color: var(--text-color);
     font-family: var(--font-family);
+    --spacing-unit: var(--spacing-unit);
 }
