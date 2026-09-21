@@ -8,9 +8,18 @@
 }
 body {
     background-color: var(--primary-color);
-    secondary-color: var(--secondary-color);
-    accent-color: var(--accent-color);
     color: var(--text-color);
     font-family: var(--font-family);
-    --spacing-unit: var(--spacing-unit);
+}
+.navbar {
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+        font-family: var(--font-family);
+}
+.navbar-brand, .nav-link {
+        color: var(--text-color);
+
+}
+.nav-link:hover {
+        color: var(--accent-color);
 }
