@@ -32,7 +32,7 @@
     <a href="#packages" class="btn btn-warning"> Explore Packages</a>
             </div>
             <div class="col-lg-6">
-                <img src="images/Lordran.png" 
+                <img src="images/DarkSouls.jpg" 
                 alt="Lordran" 
                 class="img-fluid rounded hero-image">
             </div>
@@ -41,15 +41,62 @@
 </section>
 <section id="packages">
     <h2> Travel Packages</h2>
-    <ul>
-        <li> The Undead Asylum Adventure</li>
-        <li> The Firelink Shrine Experience</li>
-        <li> The Anor Londo Expedition</li>
-    </ul>
+    
+    <article> 
+        <img src="images/Undead.jpg" alt="Undead Asylum" class="img-fluid rounded">
+        <h3> The Undead Asylum Adventure</h3>
+    </article>
+    <article>
+        <img src="images/firelink.jpg" alt="Firelink Shrine" class="img-fluid rounded">
+        <h3> The Firelink Shrine Experience</h3>
+    </article>
+    <article>
+        <img src="images/AnorLondo.jpg" alt="Anor Londo" class="img-fluid rounded">
+        <h3> The Anor Londo Expedition</h3>
+    </article>
+    <table>
+        <tr>
+            <th> Package Name</th>
+            <th> Duration</th>
+            <th> Price</th>
+        </tr>
+        <tr>
+            <td> The Undead Asylum Adventure</td>
+            <td> 6 Days</td>
+            <td> $499</td>
+        </tr>
+        <tr>
+            <td> The Firelink Shrine Experience</td>
+            <td> 3 Days</td>
+            <td> $799</td>
+        </tr>
+        <tr>
+            <td> The Anor Londo Expedition</td>
+            <td> 7 Days</td>
+            <td> $899</td>
+        </tr>
+    </table>
+
 </section>
 <section id="contact">
     <h2> Contact Us</h2>
     <p> Have questions about your trip to Lordran? Reach out to us!</p>
+    <form> 
+        <label for="name"> Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="Package"> Package Option:</label>
+        <select id="Package" name="Package Option" required>
+            <option value="">Select a package</option>
+            <option value="undead-asylum">The Undead Asylum Adventure</option>
+            <option value="firelink-shrine">The Firelink Shrine Experience</option>
+            <option value="anor-londo">The Anor Londo Expedition</option>
+        </select>
+        <label for="message"> Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" class="btn btn-warning"> Send Message</button>
+    </form>
 </section>
 </main>
 <footer>
