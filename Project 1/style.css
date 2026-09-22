@@ -7,9 +7,25 @@
 --spacing-unit: 1rem;
 }
 body {
+        display: grid;
+        grid-template-areas: "header" 
+                             "main" 
+                             "footer";
+        grid-template-rows: auto 1fr auto;
+        min-height: 100vh;
     background-color: var(--primary-color);
     color: var(--text-color);
     font-family: var(--font-family);
+}
+header {
+        grid-area: header;
+}
+main {
+        grid-area: main;
+}
+
+footer{
+        grid-area: footer;
 }
 .navbar {
         background-color: var(--secondary-color);
@@ -24,9 +40,12 @@ body {
         color: var(--accent-color);
 }
 .hero-image {
-    width: 100%;
+    width: 90%;
     height:auto;
     object-fit: cover;
+    background-color: var(--secondary-color);
+        padding: var(--spacing-unit);
+        border-radius: 8px;
 }
 #packages {
         display: grid;
@@ -76,4 +95,38 @@ body {
 #contact input, #contact select, #contact textarea {
         background-color: var(--secondary-color);
         color: var(--text-color);
+}
+
+.hero-container {
+        max-width:1100px;
+
+}
+.hero-section h1{
+        font-size: 3.5rem;
+        color: var(--accent-color);
+        transform: translateX(145px);
+}
+.hero-section h2{
+        font-size: 2rem;
+        color: var(--text-color);
+        transform: translateX(350px);
+}
+
+.hero-section p{
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        color: var(--text-color);
+        transform: translateX(250px);
+        max-width: 450px;
+        text-align: center;
+
+}
+
+.hero-button {
+        transform: translateX(400px);
+}
+.DarkSoulsWhite {
+        max-width: 70%;
+        height: auto;
+transform: translateX(145px);
 }
