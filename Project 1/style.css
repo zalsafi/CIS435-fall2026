@@ -45,4 +45,35 @@ body {
 
 #packages table {
         grid-column: 1 / -1;
+         width: 100%;
+        border-collapse: collapse;
+}
+
+#packages th, #packages td {
+        padding: var(--spacing-unit);
+        border: 1px solid var(--text-color);
+}
+#packages th {
+        color: var(--accent-color);
+}
+
+#packages article {
+        background-color: var(--secondary-color);
+        padding: var(--spacing-unit);
+        border-radius: 8px;
+}
+#packages h3 {
+        color: var(--accent-color);
+        margin-top: var(--spacing-unit);
+}
+
+#contact form {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-unit);
+
+}
+#contact input, #contact select, #contact textarea {
+        background-color: var(--secondary-color);
+        color: var(--text-color);
 }
