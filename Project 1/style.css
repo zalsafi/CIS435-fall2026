@@ -130,3 +130,44 @@ footer{
         height: auto;
 transform: translateX(145px);
 }
+
+@media (min-width: 768px) and (max-width: 1023px){
+#packages { 
+        grid-template-columns: 1fr 1fr;
+       
+}
+        .hero-section h1, .hero-section h2, .hero-section p,.DarkSoulsWhite {
+                transform: translateX(0);
+                text-align: center;
+        }
+        .hero-button {
+                transform: translateX(0);
+                display: table;
+                margin: 0 auto;
+        }
+        DarkSoulsWhite {
+                transform: translateX(0);
+                display: table;
+                margin: 0 auto;
+        }
+}
+@media (max-width: 768px) {
+        #packages {
+                grid-template-columns: 1fr; 
+        }
+        .hero-section h1, .hero-section h2, .hero-section p {
+                transform: translateX(0);
+                text-align: center;
+        }
+        .hero-button {
+                transform: translateX(0);
+                display: table;
+                margin: 0 auto;
+        }
+.DarkSoulsWhite {
+                transform: translateX(0);
+                display: table;
+                margin: 0 auto;
+        }
+}
+
