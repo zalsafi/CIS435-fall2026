@@ -17,6 +17,7 @@ Desktop view
 
 Mobile View
 
+<img width="486" height="896" alt="Screenshot 2026-09-22 012856" src="https://github.com/user-attachments/assets/79693714-7626-4950-9a2c-8e35744992fc" />
 <img width="472" height="900" alt="Screenshot 2026-09-22 012917" src="https://github.com/user-attachments/assets/ed8de1ab-7a54-4d3e-a4d5-3fbdbbcab97d" />
 <img width="491" height="892" alt="Screenshot 2026-09-22 012909" src="https://github.com/user-attachments/assets/cbfa5c5d-b71b-4c8b-9b57-ee310235edd2" />
-<img width="486" height="896" alt="Screenshot 2026-09-22 012856" src="https://github.com/user-attachments/assets/79693714-7626-4950-9a2c-8e35744992fc" />
+
