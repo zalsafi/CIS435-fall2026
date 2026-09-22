@@ -145,7 +145,7 @@ transform: translateX(145px);
                 display: table;
                 margin: 0 auto;
         }
-        DarkSoulsWhite {
+        .DarkSoulsWhite {
                 transform: translateX(0);
                 display: table;
                 margin: 0 auto;
